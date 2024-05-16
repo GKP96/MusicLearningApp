@@ -26,10 +26,10 @@ export default function FeaturedCourses() {
     <div className="py-12 bg-black">
       <div>
         <div className="text-center">
-          <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
+          <h2 className="text-xs sm:text-base text-teal-600 font-semibold tracking-wide uppercase">
             FEATURED COURSES
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className="mt-2 text-xl sm:text-4xl leading-8 font-extrabold tracking-tight text-white">
             Learn With the Best
           </p>
         </div>

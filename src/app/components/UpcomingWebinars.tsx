@@ -57,12 +57,12 @@ function UpcomingWebinars() {
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
             FEATURED WEBINARS
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
+          <p className=" sm:mt-2 text-xl sm:text-4xl  leading-8 font-extrabold tracking-tight text-white ">
             Enhance Your Musical Journey
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="sm:mt-10">
           <HoverEffect
             items={featuredWebinars.map((webinar) => ({
               title: webinar.title,
